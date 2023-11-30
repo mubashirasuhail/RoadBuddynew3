@@ -64,6 +64,55 @@ class _InsuranceState extends State<Insurance2> {
                         key: _formKey,
                         child: Column(
                           children: [
+                               /*
+                          CustomTextField(
+                            controller: nameController,
+                            hintText: 'Name of insured',
+                            validator: (value) {
+                              if (value == null || value.isEmpty) {
+                                return 'Name empty';
+                              }
+                              return '';
+                            },
+                          ),
+                          CustomTextField(
+                            controller: typeController,
+                            hintText: 'Insurance type',
+                            validator: (value) {
+                              if (value == null || value.isEmpty) {
+                                return 'Insurance type empty';
+                              }
+                              return '';
+                            },
+                          ),
+                          CustomTextField(
+                            controller: phoneController,
+                            keyboardType: TextInputType.number,
+                            hintText: 'Contact',
+                            validator: (value) {
+                              if (value == null || value.isEmpty) {
+                                return 'Contact empty';
+                              }
+                              return '';
+                            },
+                          ),
+                          CustomTextField(
+                            controller: modelController,
+                            hintText: 'Vehicle Model',
+                            validator: (value) {
+                              if (value == null || value.isEmpty) {
+                                return 'Vehicle Model empty';
+                              }
+                              return '';
+                            },
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 10),
+                            child: Text(
+                              'Period of Insurance',
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          ),*/
                             Padding(
                               padding: const EdgeInsets.symmetric(vertical: 20),
                               child: Container(

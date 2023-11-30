@@ -4,7 +4,6 @@ import 'package:intl/intl.dart';
 import 'package:RoadBuddy/db/data_model.dart';
 import 'package:RoadBuddy/db/dbfunction.dart';
 
-
 class InsuranceDetails extends StatefulWidget {
   final String userId;
   final String name;
